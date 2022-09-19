@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#player1, #player2 {
+    margin: 10em;
+    
+}
+
+.player {
+    text-decoration: underline;
+    
+}
+
+input{
+    display: block;
+    margin: 2rem 0 2rem 0;
+    width: 59rem;
+    border: 1px solid black;
+    background-color: rgb(233, 230, 230);
+    font-size: 2rem;
+    text-align: right;
+}
+
+button {
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 2rem;
+}
+
+#red1, #red2 {
+    color: red;
+    border: solid 1px red;
+    background-color: black;
+}
+
+#yellow1, #yellow2{
+    color: yellow;
+    border: solid 1px yellow;
+    background-color: black;
+}
+
+#green1, #green2 {
+    color: lawngreen;
+    border: solid 1px lawngreen;
+    background-color: black;
+}
+
+#brown1, #brown2{
+    color: brown;
+    border: solid 1px brown;
+    background-color: black;
+}
+
+#blue1, #blue2 {
+    color: blue;
+    border: solid 1px blue;
+    background-color: black;
+}
+
+#pink1, #pink2 {
+    color: pink;
+    border: solid 1px pink;
+    background-color: black;
+}
+
+#black1, #black2 {
+    color: black;
+    border: solid 1px black;
+    background-color: gray;
+}
+
+button:hover {
+    transform: scale(1.2);
+    
+}
+
